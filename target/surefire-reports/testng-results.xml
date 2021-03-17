@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="39198" started-at="2021-03-17T18:47:06Z" finished-at="2021-03-17T18:47:45Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="39198" started-at="2021-03-17T18:47:06Z" finished-at="2021-03-17T18:47:45Z">
+      <class name="com.Tests.PaymentTest">
+        <test-method status="PASS" signature="billingAddress()[pri:5, instance:com.Tests.PaymentTest@4afbb6c2]" name="billingAddress" duration-ms="942" started-at="2021-03-18T00:17:39Z" finished-at="2021-03-18T00:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- billingAddress -->
+        <test-method status="PASS" signature="shippingAddress()[pri:6, instance:com.Tests.PaymentTest@4afbb6c2]" name="shippingAddress" duration-ms="788" started-at="2021-03-18T00:17:40Z" finished-at="2021-03-18T00:17:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingAddress -->
+        <test-method status="PASS" signature="shippingmethod()[pri:7, instance:com.Tests.PaymentTest@4afbb6c2]" name="shippingmethod" duration-ms="617" started-at="2021-03-18T00:17:40Z" finished-at="2021-03-18T00:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shippingmethod -->
+        <test-method status="PASS" signature="paymentmethod()[pri:8, instance:com.Tests.PaymentTest@4afbb6c2]" name="paymentmethod" duration-ms="453" started-at="2021-03-18T00:17:41Z" finished-at="2021-03-18T00:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentmethod -->
+        <test-method status="PASS" signature="paymentinfo()[pri:9, instance:com.Tests.PaymentTest@4afbb6c2]" name="paymentinfo" duration-ms="310" started-at="2021-03-18T00:17:41Z" finished-at="2021-03-18T00:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- paymentinfo -->
+        <test-method status="PASS" signature="confirm()[pri:10, instance:com.Tests.PaymentTest@4afbb6c2]" name="confirm" duration-ms="328" started-at="2021-03-18T00:17:42Z" finished-at="2021-03-18T00:17:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm -->
+        <test-method status="PASS" signature="logoutMethod()[pri:10, instance:com.Tests.PaymentTest@4afbb6c2]" name="logoutMethod" duration-ms="1281" started-at="2021-03-18T00:17:42Z" finished-at="2021-03-18T00:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutMethod -->
+        <test-method status="PASS" signature="orderdetails()[pri:11, instance:com.Tests.PaymentTest@4afbb6c2]" name="orderdetails" duration-ms="855" started-at="2021-03-18T00:17:43Z" finished-at="2021-03-18T00:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderdetails -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Tests.PaymentTest@4afbb6c2]" name="teardown" is-config="true" duration-ms="702" started-at="2021-03-18T00:17:44Z" finished-at="2021-03-18T00:17:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Tests.PaymentTest -->
+      <class name="com.Tests.ShoppingcartTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Tests.ShoppingcartTest@2f521c4]" name="setup" is-config="true" duration-ms="6186" started-at="2021-03-18T00:17:30Z" finished-at="2021-03-18T00:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="proccessing()[pri:3, instance:com.Tests.ShoppingcartTest@2f521c4]" name="proccessing" duration-ms="736" started-at="2021-03-18T00:17:37Z" finished-at="2021-03-18T00:17:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proccessing -->
+        <test-method status="PASS" signature="validatesubtotal()[pri:4, instance:com.Tests.ShoppingcartTest@2f521c4]" name="validatesubtotal" duration-ms="1291" started-at="2021-03-18T00:17:37Z" finished-at="2021-03-18T00:17:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesubtotal -->
+      </class> <!-- com.Tests.ShoppingcartTest -->
+      <class name="com.Tests.LoginpageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Tests.LoginpageTest@2d5ef498]" name="setup" is-config="true" duration-ms="4888" started-at="2021-03-18T00:17:13Z" finished-at="2021-03-18T00:17:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:com.Tests.LoginpageTest@2d5ef498]" name="Login" duration-ms="1199" started-at="2021-03-18T00:17:18Z" finished-at="2021-03-18T00:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="validateAccountid()[pri:0, instance:com.Tests.LoginpageTest@2d5ef498]" name="validateAccountid" duration-ms="68" started-at="2021-03-18T00:17:19Z" finished-at="2021-03-18T00:17:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAccountid -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Tests.LoginpageTest@2d5ef498]" name="teardown" is-config="true" duration-ms="686" started-at="2021-03-18T00:17:19Z" finished-at="2021-03-18T00:17:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Tests.LoginpageTest -->
+      <class name="com.Tests.HomepageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Tests.HomepageTest@95eb320]" name="setup" is-config="true" duration-ms="6635" started-at="2021-03-18T00:17:20Z" finished-at="2021-03-18T00:17:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="selectbook()[pri:1, instance:com.Tests.HomepageTest@95eb320]" name="selectbook" duration-ms="2753" started-at="2021-03-18T00:17:26Z" finished-at="2021-03-18T00:17:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectbook -->
+        <test-method status="PASS" signature="AddtoCart()[pri:2, instance:com.Tests.HomepageTest@95eb320]" name="AddtoCart" duration-ms="788" started-at="2021-03-18T00:17:29Z" finished-at="2021-03-18T00:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddtoCart -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Tests.HomepageTest@95eb320]" name="teardown" is-config="true" duration-ms="681" started-at="2021-03-18T00:17:30Z" finished-at="2021-03-18T00:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Tests.HomepageTest -->
+      <class name="com.Tests.WelcomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Tests.WelcomePageTest@380e1909]" name="setup" is-config="true" duration-ms="5662" started-at="2021-03-18T00:17:06Z" finished-at="2021-03-18T00:17:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="welcomepageValidation()[pri:0, instance:com.Tests.WelcomePageTest@380e1909]" name="welcomepageValidation" duration-ms="614" started-at="2021-03-18T00:17:11Z" finished-at="2021-03-18T00:17:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomepageValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Tests.WelcomePageTest@380e1909]" name="teardown" is-config="true" duration-ms="697" started-at="2021-03-18T00:17:12Z" finished-at="2021-03-18T00:17:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Tests.WelcomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
